@@ -2,7 +2,7 @@ package com.tul.inventory.infraestructure.entrypoint.controller.exceptionhandler
 
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
-import com.tul.inventory.infraestructure.dataprovider.entities.exceptions.ProductNotFoundException;
+import com.tul.inventory.infraestructure.dataprovider.jpa.entities.exceptions.ProductNotFoundException;
 import com.tul.inventory.infraestructure.entrypoint.controller.entities.ErrorResponse;
 import javax.persistence.PersistenceException;
 import org.springframework.http.ResponseEntity;
@@ -25,7 +25,7 @@ public class CustomExceptionHandler {
   protected ResponseEntity<ErrorResponse> handleProductNotFoundException(
       ProductNotFoundException exception) {
     return ResponseEntity.status(NOT_FOUND).body(ErrorResponse.builder()
-        .errorMessage(exception.getCause().getMessage())
+        .errorMessage(exception.getMessage())
         .build());
   }
 

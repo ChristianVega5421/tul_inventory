@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.when;
 
 import com.tul.inventory.domain.entities.Product;
-import com.tul.inventory.infraestructure.dataprovider.entities.ProductJpaEntity;
-import com.tul.inventory.infraestructure.dataprovider.entities.exceptions.ProductNotFoundException;
+import com.tul.inventory.infraestructure.dataprovider.jpa.entities.ProductJpaEntity;
+import com.tul.inventory.infraestructure.dataprovider.jpa.entities.exceptions.ProductNotFoundException;
 import java.util.Optional;
 import java.util.UUID;
 import org.junit.jupiter.api.Test;

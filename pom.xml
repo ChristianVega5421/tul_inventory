@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.tul.inventory</groupId>
 	<artifactId>inventory</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.2.0-SNAPSHOT</version>
 	<name>inventory</name>
 	<description>Inventory administrator microservice</description>
 	<properties>
@@ -39,6 +39,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-log4j2</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
 		</dependency>
 
 

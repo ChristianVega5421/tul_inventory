@@ -1,6 +1,6 @@
-package com.tul.inventory.infraestructure.dataprovider.repositories;
+package com.tul.inventory.infraestructure.dataprovider.jpa.repositories;
 
-import com.tul.inventory.infraestructure.dataprovider.entities.ProductJpaEntity;
+import com.tul.inventory.infraestructure.dataprovider.jpa.entities.ProductJpaEntity;
 import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
 

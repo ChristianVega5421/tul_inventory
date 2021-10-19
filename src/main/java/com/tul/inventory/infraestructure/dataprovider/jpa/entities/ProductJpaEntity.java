@@ -1,4 +1,4 @@
-package com.tul.inventory.infraestructure.dataprovider.entities;
+package com.tul.inventory.infraestructure.dataprovider.jpa.entities;
 
 import static javax.persistence.GenerationType.AUTO;
 import static lombok.AccessLevel.PRIVATE;

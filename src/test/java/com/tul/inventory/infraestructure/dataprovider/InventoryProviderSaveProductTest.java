@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 import com.tul.inventory.domain.entities.Product;
-import com.tul.inventory.infraestructure.dataprovider.entities.ProductJpaEntity;
+import com.tul.inventory.infraestructure.dataprovider.jpa.entities.ProductJpaEntity;
 import java.util.UUID;
 import org.junit.jupiter.api.Test;
 

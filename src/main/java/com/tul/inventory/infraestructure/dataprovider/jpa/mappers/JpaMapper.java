@@ -1,7 +1,7 @@
-package com.tul.inventory.infraestructure.dataprovider.mappers;
+package com.tul.inventory.infraestructure.dataprovider.jpa.mappers;
 
 import com.tul.inventory.domain.entities.Product;
-import com.tul.inventory.infraestructure.dataprovider.entities.ProductJpaEntity;
+import com.tul.inventory.infraestructure.dataprovider.jpa.entities.ProductJpaEntity;
 import java.util.List;
 import org.mapstruct.Mapper;
 

@@ -7,6 +7,7 @@ import com.tul.inventory.domain.entities.Product;
 import com.tul.inventory.domain.mappers.ServiceMapper;
 import com.tul.inventory.domain.usecases.InventoryUseCase;
 import com.tul.inventory.domain.usecases.ports.InventoryPort;
+import com.tul.inventory.infraestructure.dataprovider.core.KafkaProducer;
 import com.tul.inventory.infraestructure.entrypoint.controller.entities.ProductControllerResponse;
 import java.util.List;
 import java.util.UUID;
